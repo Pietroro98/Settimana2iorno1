@@ -83,10 +83,10 @@ const verify = name1 !== name2 ? 'name 1 è diverso da name 2' : 'name1 è ident
 console.log(verify);
 
 /*let areEqualLowercase = name1.toLowerCase() === name2.toLowerCase();
-console.log(areEqualLowercase);*/
+console.log(areEqualLowercase);*/ // cercato su google//
 
-name1 = name1.toLowerCase;
-name2 = name2.toLowerCase;
+name1 = name1.toLowerCase();
+name2 = name2.toLowerCase();
 
 const verify2 = name1 !== name2 ? 'name1 è diverso da name2' : 'name1 è identico a name2';
 console.log(verify2);
